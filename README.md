@@ -32,7 +32,5 @@ O objetivo é criar um website dinâmico e eficiente que reflita a inovação e 
 
 Este é um projeto interno e está sendo desenvolvido por membros da equipe da **Agaemetec Sistemas** com foco em fornecer uma solução digital inovadora.
 
----
 
-Se você tiver dúvidas ou quiser contribuir, sinta-se à vontade para entrar em contato com nossa equipe de desenvolvimento.
 
