@@ -1,70 +1,38 @@
-# Getting Started with Create React App
+# Projeto de Desenvolvimento do Website - Agaemetec Sistemas
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Este projeto visa o desenvolvimento de um novo website para a **Agaemetec Sistemas** utilizando **ReactJS** e animações para proporcionar uma experiência de usuário moderna e interativa.
 
-## Available Scripts
+## Status do Projeto
 
-In the project directory, you can run:
+Atualmente, o site está em **fase de pré-visualização** e não está disponível no ar. O site está em desenvolvimento e apresenta a estrutura inicial, com o foco em uma interface amigável e funcionalidades animadas.
 
-### `npm start`
+## Tecnologias Utilizadas
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- **ReactJS**: Framework JavaScript utilizado para a criação da interface do usuário.
+- **CSS (com animações)**: Estilo visual e animações aplicadas para transições suaves e interatividade.
+- **Responsividade**: O site foi projetado para ser responsivo, garantindo uma boa experiência em dispositivos móveis e desktops.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Funcionalidades Principais
 
-### `npm test`
+- **Animações Suaves**: Aplicação de animações em transições de páginas, botões e elementos interativos para melhorar a fluidez da navegação.
+- **Interface Intuitiva**: Navegação clara e fácil com foco em usabilidade.
+- **Estrutura Escalável**: O ReactJS oferece uma arquitetura flexível, permitindo futuras melhorias e adições de funcionalidades.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Objetivo do Projeto
 
-### `npm run build`
+O objetivo é criar um website dinâmico e eficiente que reflita a inovação e competência da **Agaemetec Sistemas**. A aplicação de animações e o uso do ReactJS garantem um site moderno, responsivo e otimizado para diversos dispositivos.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Próximos Passos
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- **Finalização da estrutura visual**: Refinar o design e as animações.
+- **Teste de usabilidade**: Garantir que a navegação seja intuitiva para o usuário final.
+- **Lançamento online**: Após a conclusão do desenvolvimento e testes, o site será disponibilizado para o público.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Contribuições
 
-### `npm run eject`
+Este é um projeto interno e está sendo desenvolvido por membros da equipe da **Agaemetec Sistemas** com foco em fornecer uma solução digital inovadora.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+---
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Se você tiver dúvidas ou quiser contribuir, sinta-se à vontade para entrar em contato com nossa equipe de desenvolvimento.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
