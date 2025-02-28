@@ -21,24 +21,30 @@ const services = [
 
 const Services = () => (
   <section id="services" className="py-16 bg-white">
-    <h2 className="text-center text-3xl font-bold text-blue-800">Nossos Serviços</h2>
-    <p className="text-center mt-2 text-gray-600">
-      Combinamos com DevOps para trazer o melhor de tecnologia para projetos em todo o mundo.
-    </p>
-    <div className="container mx-auto grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8 mt-8">
-      {services.map((service, index) => (
-        <motion.div
-          key={index}
-          whileHover={{ scale: 1.05 }}
-          className="shadow-lg rounded-lg overflow-hidden bg-white"
-        >
-          <img src={service.image} alt={service.title} className="w-full h-48 sm:h-64 md:h-72 object-cover" />
-          <div className="p-4">
-            <h3 className="text-lg font-bold text-blue-800">{service.title}</h3>
-            <p className="text-gray-600 mt-2 text-sm sm:text-base">{service.description}</p>
-          </div>
-        </motion.div>
-      ))}
+    <div className="container mx-auto max-w-6xl px-6">
+      <h2 className="text-center text-3xl font-bold text-blue-800">Nossos Serviços</h2>
+      <p className="text-center mt-2 text-gray-600">
+        Combinamos com DevOps para trazer o melhor de tecnologia para projetos em todo o mundo.
+      </p>
+      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8 mt-8">
+        {services.map((service, index) => (
+          <motion.div
+            key={index}
+            whileHover={{ scale: 1.05 }}
+            className="shadow-lg rounded-lg overflow-hidden bg-white"
+          >
+            <img 
+              src={service.image} 
+              alt={service.title} 
+              className="w-full h-48 sm:h-64 md:h-72 object-cover" 
+            />
+            <div className="p-6">
+              <h3 className="text-lg font-bold text-blue-800">{service.title}</h3>
+              <p className="text-gray-600 mt-2 text-sm sm:text-base">{service.description}</p>
+            </div>
+          </motion.div>
+        ))}
+      </div>
     </div>
   </section>
 );

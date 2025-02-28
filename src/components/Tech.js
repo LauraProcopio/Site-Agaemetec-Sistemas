@@ -9,7 +9,7 @@ const technologies = [
 
 const Tech = () => (
   <section id="technologies" className="py-16 bg-gray-100">
-    <div className="container mx-auto text-center">
+    <div className="container mx-auto max-w-6xl px-6 text-center">
       <h2 className="text-3xl font-bold text-blue-800">Principais Tecnologias</h2>
       <p className="text-center text-gray-600 mt-2">
         Conheça as tecnologias mais usadas em nossos projetos.
@@ -18,7 +18,7 @@ const Tech = () => (
         {technologies.map((tech, index) => (
           <div
             key={index}
-            className="bg-white shadow-md rounded-lg p-4 flex flex-col items-center transform hover:scale-105 transition duration-300 ease-in-out"
+            className="bg-white shadow-md rounded-lg p-6 flex flex-col items-center transform hover:scale-105 transition duration-300 ease-in-out"
           >
             <img
               src={tech.image}

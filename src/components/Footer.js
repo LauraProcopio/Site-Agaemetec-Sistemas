@@ -18,12 +18,11 @@ const Footer = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
     
-    // Enviar email usando EmailJS
     emailjs.send(
-      'your_service_id', // Substitua com seu Service ID
-      'your_template_id', // Substitua com seu Template ID
+      'your_service_id',
+      'your_template_id',
       formData,
-      'your_user_id' // Substitua com seu User ID
+      'your_user_id'
     )
     .then((response) => {
       console.log('Email enviado com sucesso!', response);
@@ -36,17 +35,17 @@ const Footer = () => {
   };
 
   return (
-    <footer id="contact" className="bg-blue-900 text-white py-8">
-      <div className="container mx-auto grid grid-cols-1 md:grid-cols-3 gap-8">
+    <footer id="contact" className="bg-blue-900 text-white py-10 px-6 md:px-12">
+      <div className="container mx-auto grid grid-cols-1 md:grid-cols-3 gap-12">
         <div>
-          <h3 className="text-lg font-bold">AGAMEMTEC SISTEMAS</h3>
-          <p className="mt-2 text-sm">
+          <h3 className="text-xl font-bold">AGAMEMTEC SISTEMAS</h3>
+          <p className="mt-4 text-sm leading-relaxed">
             A Agamemtec é uma empresa especializada no desenvolvimento de soluções tecnológicas. Fundada em Campo Grande/MS em 2003, nossa missão é criar software personalizado para atender às necessidades de nossos clientes de maneira fácil, eficaz e simplificada.
           </p>
         </div>
         <div>
-          <h3 className="text-lg font-bold">Menu</h3>
-          <ul className="mt-2 space-y-2">
+          <h3 className="text-xl font-bold">Menu</h3>
+          <ul className="mt-4 space-y-3">
             <li><a href="#about" className="hover:underline">Sobre</a></li>
             <li><a href="#services" className="hover:underline">Nossos Serviços</a></li>
             <li><a href="#technologies" className="hover:underline">Tecnologias</a></li>
@@ -54,15 +53,15 @@ const Footer = () => {
           </ul>
         </div>
         <div>
-          <h3 className="text-lg font-bold">Nos Contate</h3>
-          <form className="mt-4 space-y-4" onSubmit={handleSubmit}>
+          <h3 className="text-xl font-bold">Nos Contate</h3>
+          <form className="mt-6 space-y-4" onSubmit={handleSubmit}>
             <input 
               type="text" 
               name="name" 
               value={formData.name} 
               onChange={handleChange} 
               placeholder="Nome" 
-              className="w-full p-2 rounded bg-white text-black" 
+              className="w-full p-3 rounded bg-white text-black border border-gray-300 focus:outline-none focus:ring-2 focus:ring-blue-500" 
             />
             <input 
               type="email" 
@@ -70,7 +69,7 @@ const Footer = () => {
               value={formData.email} 
               onChange={handleChange} 
               placeholder="Email" 
-              className="w-full p-2 rounded bg-white text-black" 
+              className="w-full p-3 rounded bg-white text-black border border-gray-300 focus:outline-none focus:ring-2 focus:ring-blue-500" 
             />
             <textarea 
               name="message" 
@@ -78,11 +77,11 @@ const Footer = () => {
               onChange={handleChange} 
               placeholder="Mensagem" 
               rows="4" 
-              className="w-full p-2 rounded bg-white text-black" 
+              className="w-full p-3 rounded bg-white text-black border border-gray-300 focus:outline-none focus:ring-2 focus:ring-blue-500" 
             />
             <button 
               type="submit" 
-              className="w-full py-2 bg-gray-100 text-blue-800 rounded hover:bg-gray-200"
+              className="w-full py-3 bg-gray-100 text-blue-800 rounded hover:bg-gray-200 transition"
             >
               Enviar
             </button>
